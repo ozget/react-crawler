@@ -1,5 +1,5 @@
 export interface NewsModel {
-  id?: number
+  id?: string
   title: string
   body: string
  link:string

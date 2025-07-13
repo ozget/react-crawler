@@ -10,7 +10,6 @@ const AppRoutes = () => {
     <Suspense fallback={<p>Yükleniyor...</p>}>
       <Routes>
         <Route path="/" element={<NewListPage />} />
-        <Route path="/posts/:id" element={<NewDetailPage />} />
         <Route path="*" element={<p>Sayfa bulunamadı</p>} />
       </Routes>
     </Suspense>
